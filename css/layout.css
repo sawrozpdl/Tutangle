@@ -1,0 +1,133 @@
+.middlewidth {
+	max-width: 58.625em;
+	margin: auto;
+}
+
+/* Clearfix*/
+
+.clearfix:before,.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* Body Layout */
+
+/* Header-Top*/
+
+.header-top-content {
+	padding: 20px 0px 16px 0px;
+}
+
+.logoarea {
+	float: left;
+	/* width: 583px; */
+	width: 63.1535%;
+}
+
+.logo {
+	float: left;
+}
+
+.searcharea {
+	float: right;
+	/* width: 336px; */
+	width:57.6329%;
+	margin-top: 20px;
+}
+
+.searchwrapper {
+	background: url("../images/search-bar.png");
+	/* width: 264px; */
+	width: 78.5714%;
+	height: 14px;
+	float: left;
+	padding: 3px 6px;
+}
+
+.searchinput {
+	width: 100%;
+	float: left;
+}
+
+.searchbutton {
+	background: url("../images/search-btn.png");
+	float: right;
+	/* width: 53px; */
+	width: 15.7738%;
+	height: 20px;
+	border: none;
+}
+
+.searchwrapper, .searchbutton {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.profilearea {
+	float: right;
+}
+
+.profilename span {
+	float: right;
+}
+
+.usernav, .usernav li {
+	float: left;
+}
+
+/* Header-Bottom*/
+
+.optionarea, .optionarea li {
+	float: left;
+}
+
+.statusarea {
+	float: right;
+}
+
+.statusarea li {
+	float: left;
+}
+
+.main-container {
+	margin: 30px auto;
+}
+
+.left-container {
+	/* width: 762px; */
+	width: 81.2366%;
+	float: left;
+}
+
+.searches {
+	/* width: 194px; */
+	width: 25.4593%;
+	float: left;
+}
+
+.entries {
+	/* width: 518px; */
+	width: 67.9390%;
+	float: right;
+	/* padding: 0px 25px; */
+	padding: 0px 3.2808%;
+}
+
+.tab-content {
+	/*2 px padding to give the bottom border */
+	padding-bottom: 2px;
+}
+
+.right-container {
+	/* width: 176px; */
+	width: 18.7633%;
+	float: right;
+}
+
+#close-button {
+	display: none;
+}

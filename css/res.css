@@ -1,0 +1,340 @@
+@media only screen and (max-width: 870px) {
+
+    .logoarea {
+        width: 70%;
+    }
+
+    .optionarea li a {
+        font-size: 12px;
+    }
+
+    .optionarea li {
+        padding: 0px 10px;
+    }
+
+    .post-content {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .middlewidth {
+        width: 90%;
+    }
+
+    .header-top-content {
+        padding: 5px 0px;
+    }
+
+    .searcharea {
+        width: 80%;
+        float: none;
+        margin: 10px 0px;
+    }
+
+    .searchwrapper {
+        float: none;
+        width: 80%;
+        height: 21px;
+        font-size: 18px;
+	    padding: 4.5px 9px;
+        margin: 10px auto;
+    }
+
+    .buttonwrapper {
+        width: 53px;
+        margin: auto;
+    }
+
+    .searchwrapper input, .buttonwrapper button {
+        font-size: 13px;
+    }
+
+    .searchbutton {
+        width: 79.5px;
+	    height: 30px;
+    }
+
+    .logoarea {
+        float: none;
+        width: 100%;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .logo, .searcharea {
+        float: none;
+        margin: 20px auto;
+    }
+
+    .profilearea {
+        float: none;
+    }
+
+    .profilename {
+        float: left;
+    }
+
+    .profilename span {
+        font-size: calc(5px + 2.5vw);
+    }
+
+    .usernav {
+        float: right;
+    }
+
+    .usernav li a {
+        font-size: calc(4px + 2vw);
+    }
+
+    .profilearea {
+        float: none;
+        width: 100%;
+    }
+
+    .optionarea {
+        float: none;
+        width: 100%;
+        margin: auto;
+        border-bottom: 1px solid #2ec3d9;
+    }
+
+    .optionarea li {
+        width: 24%;
+        padding-left : 1%;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .optionarea li a {
+        font-size: calc(5px + 1.2vw);
+    }
+
+    .statusarea {
+        float: none;
+        width : 100%;
+    }
+
+    .statusarea span {
+        font-size: 14px;
+    }
+
+    .statusarea li:last-child {
+        float: right;
+    }
+
+    .statusarea-tbi {
+        padding-right: 0px;
+    }
+
+    .left-container {
+        width: 100%;
+        float: none;
+    }
+
+    .entries {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .post-content {
+        font-size: 18px;
+    }
+
+    .right-container, .searches {
+        width: calc(35px + 35%);
+        height: 100%;
+        position: fixed;
+        top:0px;
+        background: rgba(0,0,0,0.9);
+        color: white;
+    }
+
+    .rsearch ul li a{
+        color: white;
+    }
+
+    .rsearch ul li:hover a{
+        color: black;
+    }
+
+    .right-container {
+        left: 0px;
+    }
+
+    .searches {
+        right: 0px;
+    }
+
+    .right-container {
+        display: none;
+    }
+
+    .searches {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 737px) {
+    
+    .optionarea li {
+        padding: 0px 8%;
+        width: auto;
+    }
+
+    .optionarea li a {
+        font-size: calc(8px + 1.4vw);
+    }
+
+    .optionarea li:first-child, .optionarea li + li + li {
+        float: left;
+    }
+
+    .optionarea li:last-child, .optionarea li + li {
+        float: right;
+    }
+
+    .post-content {
+        font-size: 15.5px;
+    }
+ }
+
+ @media only screen and (max-width: 514px) { 
+
+    .tab-content {
+        background: none;
+    }
+
+    .tab-button {
+        width: 25%;
+        line-height: 15px;
+        margin: 0px;
+        border: 1px solid  #2ec3d9;
+        border-right: none;
+        box-sizing: border-box;
+    }
+
+    .tab-button:last-child {
+        border-right: 1px solid  #2ec3d9;
+    }
+
+	.tab-button, .tab-button:hover {
+        background: #dddddd;
+    }
+
+    .tab-button.active-button a, .tab-button:hover a {
+        color: black;
+    }
+
+    .entries {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .userpic {
+        width: 100%;
+    }
+
+    .image {
+        display: block;
+        margin: auto;
+    }
+
+    .image-frame {
+        display: none;
+    }
+
+    .post-content {
+        padding: 0px 10px;
+        width: 95%;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .notification span {
+        text-align: center
+    }
+
+    .footernav {
+        display: none;
+    }
+ }
+
+@media only screen and (max-width: 375px) {
+
+    .usernav {
+        float: none;
+    }
+
+	.searcharea, .optionarea, .usernav, .footernav {
+        display: none;
+    }
+
+    #close-button {
+        display: block;
+        position : fixed;
+        top : 30px;
+        right: 30px;
+    }
+
+    .optionarea {
+        display : block;
+        position : fixed;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 90px;
+        background: rgb(0,0,0,0.7);
+    }
+
+    .optionarea li:first-child, .optionarea li + li + li {
+        float: none;
+    }
+
+    .optionarea li:last-child, .optionarea li + li {
+        float: none;
+    }
+
+    .optionarea li {
+        width: 100%;
+        text-align : center;
+        padding: 20px 0px;
+    }
+
+    .optionarea li a {
+        font-size: 25px;
+        color: white;
+    }
+
+    .statusarea  span {
+        font-size: 3.5vw;
+    }
+
+    .burger-more {
+        display: block;
+        cursor: pointer;
+    }
+
+    .profilename {
+        width: 100%;
+    }
+
+    .profilename span:first-child{
+        float: right;
+    }
+
+    .profilename span:last-child{
+        float: left;
+    }
+
+    
+
+}
